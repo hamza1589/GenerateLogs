@@ -42,6 +42,7 @@ public void freeCrmTitleTest(){
 	log.info("****************************** freeCrmTitleTest *****************************************");
 	
 }
+//showing some changes
 @Test(priority=2)
 public void freemCRMLogoTest(){
 	boolean b = driver.findElement(By.xpath("//img[@class='img-responsive']")).isDisplayed();
